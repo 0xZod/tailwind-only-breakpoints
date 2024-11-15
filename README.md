@@ -17,9 +17,9 @@ module.exports = {
 Then use in your HTML:
 
 ```html
-<div class="sm-only:block">Only visible on sm screens</div>
-<div class="md-only:block">Only visible on md screens</div>
-<div class="lg-only:block">Only visible on lg screens</div>
+<div class="hidden sm-only:block">Only visible on sm screens</div>
+<div class="hidden md-only:block">Only visible on md screens</div>
+<div class="hidden lg-only:block">Only visible on lg screens</div>
 ```
 
 This plugin will create variants like `sm-only`, `md-only`, etc., that will only apply styles within that specific breakpoint range.

@@ -1,0 +1,13 @@
+{
+  "name": "tailwind-only-breakpoints",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "tailwindcss",
+    "plugin"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}
